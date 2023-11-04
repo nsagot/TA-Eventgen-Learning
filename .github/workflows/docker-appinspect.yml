@@ -2,15 +2,13 @@ name: Docker AppInspect Generation
 
 on:
   push:
-    branches:
-      - main
+    branches: ['main']
+    paths: ['cicd/dockerfiles/appinspect.dockerfile','.github/workflows/docker-appinspect.yml']
 
 env:
   IMAGE_NAME: appinspect
 
 jobs:
-  # Push image to GitHub Packages.
-  # See also https://docs.docker.com/docker-hub/builds/
   push:
     runs-on: ubuntu-latest
 
