@@ -1,0 +1,31 @@
+name: Appinspect TA-Eventgen-Learning
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  appinspect:
+    runs-on: ubuntu-latest
+    container: 
+      image: ghcr.io/nsagot/appinspect:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.TOKENPACKAGE }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run AppInspect
+        run: splunk-appinspect inspect TA-Eventgen-Learning --output-file appinspect_result_raw.json --mode precert --included-tags splunk-appinspect --included-tags self-service
+
+      - name: Beautify JSON file
+        run: jq . appinspect_result_raw.json > appinspect_result.json
+
+      - name: Upload AppInspect Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: appinspect
+          path: appinspect_result.json
