@@ -7,7 +7,7 @@ on:
 
 jobs:
 
-  appinspect:
+  AppInspect_TA-Eventgen-Learning:
     runs-on: ubuntu-latest
     container: 
       image: ghcr.io/nsagot/appinspect:latest
