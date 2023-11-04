@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Build project # This would actually build your project, using zip for an example artifact
         run: |
-          tar --disable-copyfile --exclude-vcs -czvf TA-Eventgen-Learning.tar.gz  TA-Eventgen-Learning
+          tar --exclude-vcs -czvf TA-Eventgen-Learning.tar.gz TA-Eventgen-Learning
       - name: Upload Release Asset
         id: upload-release-asset 
         uses: softprops/action-gh-release@v1
