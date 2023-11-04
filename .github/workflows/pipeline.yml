@@ -18,9 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install jq
-        run: apt install -y jq
-
       - name: Run AppInspect
         run: splunk-appinspect inspect TA-Eventgen-Learning --output-file appinspect_result_raw.json --mode precert --included-tags splunk-appinspect --included-tags self-service
 
