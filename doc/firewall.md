@@ -19,6 +19,4 @@ The firewall log entry is in the following format:
 
 ## Example Firewall Log
 
-```plaintext
-2023/11/05 15:37:20+00:00 action=DENY src_ip=201.42.223.29 src_port=33619 protocol=UDP dst_ip=10.2.1.35 dst_port=20071 bytes=0
-```
+`2023/11/05 15:37:20+00:00 action=DENY src_ip=201.42.223.29 src_port=33619 protocol=UDP dst_ip=10.2.1.35 dst_port=20071 bytes=0`

@@ -16,14 +16,10 @@ The Apache combined log format `"%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{U
 - `\"%{Referer}i\"`: This is the "Referer" field enclosed in double quotes, indicating the page from which the client followed a link to access the current page. It can help track the source of incoming traffic.
 - `\"%{User-agent}i\"`: This is the "User-agent" field enclosed in double quotes, and it contains information about the web browser or user agent used by the client to make the request. It may reveal the browser type, operating system, etc.
 
-These fields are commonly used in Apache logs to capture information about server activities, incoming traffic, and other details that are useful for server monitoring and management. You can customize the Apache log format based on your specific requirements using these fields and other configuration directives.
-
 
 ## Example Apache HTTPD Log Entry
 
-```plaintext
-123.30.108.208 - - [2023/11/05 16:02:53+00:00] "GET /category.screen?categoryId=NULL&JSESSIONID=SD3SL10FF7ADFF40812 HTTP/1.0" 303 4677 "http://www.buttercupgames.com/cart.do?action=addtocart&itemId=EST-15&productId=MB-AG-T01" "Opera/9.20 (Windows NT 6.0; U; en)"
-```
+`123.30.108.208 - - [2023/11/05 16:02:53+00:00] "GET /category.screen?categoryId=NULL&JSESSIONID=SD3SL10FF7ADFF40812 HTTP/1.0" 303 4677 "http://www.buttercupgames.com/cart.do?action=addtocart&itemId=EST-15&productId=MB-AG-T01" "Opera/9.20 (Windows NT 6.0; U; en)"`
 
 ## More informations
 
