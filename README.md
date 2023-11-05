@@ -1,6 +1,6 @@
 # TA-Eventgen-Learning
 
-TA-Eventgen-Learningis a tool designed to assist Splunk users in obtaining training data for practicing their data manipulation skills in Splunk. This application provides various types of data that can be generated, some of which are pre-parsed, while others are not. In addition, we'll walk you through configuring EventGen to accept external sources.
+TA-Eventgen-Learning is a tool designed to assist Splunk users in obtaining training data for practicing their data manipulation skills in Splunk. This application provides various types of data that can be generated, some of which are pre-parsed, while others are not. In addition, we'll walk you through configuring EventGen to accept external sources.
 
 ## Table of Contents
 - [TA-Eventgen-Learning](#ta-eventgen-learning)
@@ -8,6 +8,7 @@ TA-Eventgen-Learningis a tool designed to assist Splunk users in obtaining train
   - [Features](#features)
   - [Sources](#sources)
   - [Installation](#installation)
+  - [TODO](#todo)
   - [Contributing](#contributing)
   - [Credits](#credits)
   - [License](#license)
@@ -34,8 +35,15 @@ Each source have dedicated documentation.
 1. Install [Eventgen App](https://splunkbase.splunk.com/app/1924).
 2. Enable the SA-Eventgen modinput by going to Settings > Data Inputs > SA-Eventgen and by clicking “enable” on the default modular input stanza.
 3. Download & Copy/Move this App bundle into your ${SPLUNK_HOME}/etc/apps/ directory OR you can possibly install this App via Splunk WebUI normally.
-4. Restart Splunk
-5. Search by `index=eventgen_fw`
+4. Creation of index `eventgen_fw` or replace index in `eventgen.conf`
+5. Restart Splunk
+6. Search by `index=eventgen_fw`
+
+## TODO
+
+- [ ] Splunkbase published
+- [ ] New data sources
+- [ ] Splunk Web UI information page
 
 ## Contributing
 
