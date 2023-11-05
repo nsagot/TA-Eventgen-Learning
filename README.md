@@ -58,6 +58,13 @@ This project is the aggregation of several other EventGen projects (with possibl
 
 Logo: Planning icon created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/process")
 
+## Created by
+
+Nicolas SAGOT
+
+- [Email](mailto:nicolas@nexera.xyz)
+- [LinkedIn](https://www.linkedin.com/in/nsagot/)
+
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE). Feel free to use, modify, and distribute it as needed while adhering to the terms of the Apache License 2.0.
