@@ -7,8 +7,6 @@ TA-Eventgen-Learningis a tool designed to assist Splunk users in obtaining train
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Sources](#sources)
-    - [Parsed](#parsed)
-    - [Not Parsed](#not-parsed)
   - [Installation](#installation)
   - [Contributing](#contributing)
   - [Credits](#credits)
@@ -24,10 +22,12 @@ Eventgen-Ready-to-learn offers the following features:
 
 ## Sources
 
-### Parsed
+Each source have dedicated documentation.
 
-
-### Not Parsed
+- [ATM](./doc/atm.md)
+- [Firewall](./doc/firewall.md)
+- [Apache HTTPD](./doc/httpd.md)
+- [MessageTrace](./doc/messagetrace.md)
 
 ## Installation
 
@@ -36,7 +36,6 @@ Eventgen-Ready-to-learn offers the following features:
 3. Download & Copy/Move this App bundle into your ${SPLUNK_HOME}/etc/apps/ directory OR you can possibly install this App via Splunk WebUI normally.
 4. Restart Splunk
 5. Search by `index=eventgen_fw`
-6. + Extract New Fields if you want.
 
 ## Contributing
 

@@ -8,18 +8,19 @@ The Message Trace logs each message (Incoming or outgoing) of a company.
 
 A Message Trace log is represented in JSON format and consists of the following fields:
 
-- `FromIP`: The IP address of the message sender.
-- `Index`: An index or sequence number associated with the message.
+- `FromIP`: The IP address of the sender server.
+- `Index`: An index or sequence number associated with the message. (Allways at 0)
 - `MessageId`: A unique identifier for the message.
 - `MessageTraceId`: A unique trace identifier to group related messages.
-- `Organization`: The name of the organization associated with the message.
+- `Organization`: The name of the organization associated with the monitored organization.
 - `Received`: The date and time when the message was received.
+- `Sent`: The date and time when the message was sent.
 - `RecipientAddress`: The email address of the message recipient.
 - `SenderAddress`: The email address of the message sender.
 - `Size`: The size of the message in bytes.
 - `Status`: The status of the message, e.g., "Delivered."
 - `Subject`: The subject of the message.
-- `ToIP`: The IP address of the message recipient.
+- `ToIP`: The IP address of the recipient server.
 
 ## Example MessageTrace
 
@@ -31,6 +32,7 @@ A Message Trace log is represented in JSON format and consists of the following 
   "MessageTraceId": "909fe35e-bb5d-4f64-9acb-a9daf98a548c",
   "Organization": "nexera.oncompany.xyz",
   "Received": "2023-11-05T01:13:00.000000",
+  "Sent": "2023-11-05T01:13:00.000000",
   "RecipientAddress": "sarah.harris@nexera.xyz",
   "SenderAddress": "emily.rivera@planetobservatory.net",
   "Size": 70085,
