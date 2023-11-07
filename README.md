@@ -44,6 +44,7 @@ Each source have dedicated documentation.
 - [ ] Splunkbase published
 - [ ] New data sources
 - [ ] Splunk Web UI information page
+- [ ] Parsing model for each sources
 
 ## Contributing
 
