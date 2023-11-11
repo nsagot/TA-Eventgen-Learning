@@ -18,7 +18,9 @@ A Message Trace log is represented in JSON format and consists of the following 
 - `RecipientAddress`: The email address of the message recipient.
 - `SenderAddress`: The email address of the message sender.
 - `Size`: The size of the message in bytes.
-- `Status`: The status of the message, e.g., "Delivered."
+- `Status`: The status of the message. Possible values:
+  - Delivred: If the connection is accepted
+  - Blocked: If the connection is not authorized
 - `Subject`: The subject of the message.
 - `ToIP`: The IP address of the recipient server.
 
