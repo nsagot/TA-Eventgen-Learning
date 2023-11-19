@@ -11,6 +11,7 @@ TA-Eventgen-Learning is a tool designed to assist Splunk users in obtaining trai
   - [TODO](#todo)
   - [Contributing](#contributing)
   - [Credits](#credits)
+  - [Created by](#created-by)
   - [License](#license)
 
 ## Features
@@ -29,6 +30,7 @@ Each source have dedicated documentation.
 - [Firewall](./doc/firewall.md)
 - [Apache HTTPD](./doc/httpd.md)
 - [MessageTrace](./doc/messagetrace.md)
+- [Climate Sensor](./doc/climate_sensors.md.md)
 
 ## Installation
 
@@ -41,8 +43,9 @@ Each source have dedicated documentation.
 
 ## TODO
 
-- [ ] Splunkbase published
+- [X] Splunkbase published
 - [ ] New data sources
+  - [X] Climate Sensor
 - [ ] Splunk Web UI information page
 - [ ] Parsing model for each sources
 
