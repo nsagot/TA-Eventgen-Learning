@@ -24,7 +24,7 @@ A Message Trace log is represented in JSON format and consists of the following 
 - `Subject`: The subject of the message.
 - `ToIP`: The IP address of the recipient server.
 
-## Example MessageTrace
+## MessageTrace Log Example
 
 ```json
 {

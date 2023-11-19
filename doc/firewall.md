@@ -20,6 +20,6 @@ The firewall log entry is in the following format:
 - `dst_port`: The destination port number for the traffic.
 - `bytes`: The number of bytes associated with this traffic entry.
 
-## Example Firewall Log
+## Firewall Log Example
 
 `2023/11/05 15:37:20+00:00 fw_name=FW_DMZ_01 action=DENY src_ip=201.42.223.29 src_port=33619 protocol=UDP dst_ip=10.2.1.35 dst_port=20071 bytes=0`
