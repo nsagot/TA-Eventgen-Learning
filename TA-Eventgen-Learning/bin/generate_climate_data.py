@@ -69,4 +69,4 @@ def generate_weather_log(num_events, filename):
                 previous_values[sensor_name] = new_values
 
 if __name__ == "__main__":
-    generate_weather_log(num_events=10000, filename="climate_sensors.json")
+    generate_weather_log(num_events=10000, filename="climate_sensors.sample")

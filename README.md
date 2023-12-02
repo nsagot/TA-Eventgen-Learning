@@ -30,7 +30,7 @@ Each source have dedicated documentation.
 - [Firewall](./doc/firewall.md)
 - [Apache HTTPD](./doc/httpd.md)
 - [MessageTrace](./doc/messagetrace.md)
-- [Climate Sensor](./doc/climate_sensors.md.md)
+- [Climate Sensor](./doc/climate_sensors.md)
 
 ## Installation
 
