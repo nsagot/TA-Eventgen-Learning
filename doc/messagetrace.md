@@ -19,8 +19,10 @@ A Message Trace log is represented in JSON format and consists of the following 
 - `SenderAddress`: The email address of the message sender.
 - `Size`: The size of the message in bytes.
 - `Status`: The status of the message. Possible values:
-  - Delivred: If the connection is accepted
-  - Blocked: If the connection is not authorized
+  - Delivred: Mail is valid and delivred
+  - Blocked (Spam): If the mail is considered as a spam
+  - Blocked (Malware): If a malware is detected on mail
+  - Failed: Mail account can't receive the mail
 - `Subject`: The subject of the message.
 - `ToIP`: The IP address of the recipient server.
 
