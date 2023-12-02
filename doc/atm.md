@@ -23,7 +23,7 @@ The ATM log entry is in the following format:
     - `error`: A description of the error (e.g., "No more money on account").
     - `currency`: ATM can distribute multiple currencies (Format ISO 4217)
 
-## Example ATM Log Entry
+## ATM Log Example
 
 `Nov 05 15:53:36 atm-logging CEF:0|All The Money|ATM|1.0|200|Withdraw failed|3|atm_id=A_97992 account=BE52B4FA2E54 amount=2175.0 currency=EUR error=No more money on account`
 

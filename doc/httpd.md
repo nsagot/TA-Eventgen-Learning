@@ -17,7 +17,7 @@ The Apache combined log format `"%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{U
 - `\"%{User-agent}i\"`: This is the "User-agent" field enclosed in double quotes, and it contains information about the web browser or user agent used by the client to make the request. It may reveal the browser type, operating system, etc.
 
 
-## Example Apache HTTPD Log Entry
+## Apache HTTPD Log Example
 
 `123.30.108.208 - - [2023/11/05 16:02:53+00:00] "GET /category.screen?categoryId=NULL&JSESSIONID=SD3SL10FF7ADFF40812 HTTP/1.0" 303 4677 "http://www.buttercupgames.com/cart.do?action=addtocart&itemId=EST-15&productId=MB-AG-T01" "Opera/9.20 (Windows NT 6.0; U; en)"`
 
