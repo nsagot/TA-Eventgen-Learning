@@ -2,6 +2,8 @@
 
 TA-Eventgen-Learning is a tool designed to assist Splunk users in obtaining training data for practicing their data manipulation skills in Splunk. This application provides various types of data that can be generated, some of which are pre-parsed, while others are not. In addition, we'll walk you through configuring EventGen to accept external sources.
 
+Latest updated: See [Changelog](./CHANGELOG.md)
+
 ## Table of Contents
 - [TA-Eventgen-Learning](#ta-eventgen-learning)
   - [Table of Contents](#table-of-contents)
