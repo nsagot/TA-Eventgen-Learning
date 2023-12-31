@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
  
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
  
+## [1.2.0] - TBD
+ 
+Adding `uv_index` value to Climate Sensor
+ 
+### Added
+- Adding `uv_index` value to Climate Sensor
+ 
+### Changed
+- Adding more comment on `generate_climate_data.py`
+ 
+### Fixed
+
+
 ## [1.1.0] - 2023-12-01
  
 First changelog post.
