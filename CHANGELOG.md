@@ -4,8 +4,10 @@ All notable changes to this project will be documented in this file.
  
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [1.2.0] - TBD
- 
+## [1.1.1] - 2024-01-05
+
+The app was not compatible with EventGen version available on Splunkbase.
+
 Adding `uv_index` value to Climate Sensor
  
 ### Added
@@ -15,6 +17,7 @@ Adding `uv_index` value to Climate Sensor
 - Adding more comment on `generate_climate_data.py`
  
 ### Fixed
+- Fixing dependencies from Eventgen App + Renaming file that are not CSV file with .sample
 
 
 ## [1.1.0] - 2023-12-01
