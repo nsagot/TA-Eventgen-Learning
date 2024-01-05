@@ -39,9 +39,9 @@ Each source have dedicated documentation.
 1. Install [Eventgen App](https://splunkbase.splunk.com/app/1924).
 2. Enable the SA-Eventgen modinput by going to Settings > Data Inputs > SA-Eventgen and by clicking “enable” on the default modular input stanza.
 3. Download & Copy/Move this App bundle into your ${SPLUNK_HOME}/etc/apps/ directory OR you can possibly install this App via Splunk WebUI normally.
-4. Creation of index `eventgen_fw` or replace index in `eventgen.conf`
+4. Creation of index `eventgen_events` or replace index in `eventgen.conf`
 5. Restart Splunk
-6. Search by `index=eventgen_fw`
+6. Search by `index=eventgen_events`
 
 ## TODO
 
