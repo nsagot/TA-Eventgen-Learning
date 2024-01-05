@@ -10,7 +10,7 @@ This document provides details about the structure and fields associated with cl
 - `humidity`: The recorded humidity level as a percentage (e.g., 46.85).
 - `wind_speed`: The recorded wind speed in kilometer per hour (e.g., 14.98).
 - `wind_orientation`: The recorded wind orientation in degrees (e.g., 89.03).
-
+- `uv_index`: UV Index (between 0 and 10), Integer value.
 
 ## Climate Sensor Log Example
 
@@ -21,6 +21,7 @@ This document provides details about the structure and fields associated with cl
   "temperature": 37.68,
   "humidity": 46.85,
   "wind_speed": 14.98,
-  "wind_orientation": 89.03
+  "wind_orientation": 89.03,
+  "uv_index": 2
 }
 ```

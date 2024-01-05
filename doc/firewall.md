@@ -15,7 +15,7 @@ The firewall log entry is in the following format:
   - DENY: If the connection is not authorized
 - `src_ip`: The source IP address of the incoming network traffic.
 - `src_port`: The source port number associated with the traffic.
-- `protocol`: The protocol used for the communication, e.g., "UDP."
+- `protocol`: The protocol used for the communication (e.g., "UDP").
 - `dst_ip`: The destination IP address of the traffic.
 - `dst_port`: The destination port number for the traffic.
 - `bytes`: The number of bytes associated with this traffic entry.
