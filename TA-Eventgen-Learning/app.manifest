@@ -38,7 +38,11 @@
       "uri": null
     }
   },
-  "dependencies": null,
+  "dependencies":  {
+    "SA-Eventgen": {
+        "version": "~7.2.1"
+    }
+  },
   "tasks": null,
   "inputGroups": null,
   "incompatibleApps": null,
