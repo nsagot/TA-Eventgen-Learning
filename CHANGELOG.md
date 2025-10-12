@@ -4,11 +4,12 @@ All notable changes to this project will be documented in this file.
  
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
  
-## [1.1.2] - TBD
+## [1.2.0] - 2025-10-12
 
-Moving to Faker Python library to generate Nexera users. 
+Moving to Faker Python library to generate Nexera users. Adding new source of SSHD logs.
  
 ### Added
+- New source SSHD (+ script of data generation).
  
 ### Changed
 - Moving to Faker Python library to generate Nexera users (`messagetrace_name.sample`). Seed(10) using french locale.
