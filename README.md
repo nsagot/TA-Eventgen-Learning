@@ -37,7 +37,6 @@ Each data source has its own dedicated documentation:
 - [Apache HTTPD](./doc/httpd.md)
 - [Message Trace](./doc/messagetrace.md)
 - [Climate Sensor](./doc/climate_sensors.md)
-- [SSHD](./doc/sshd.md)
 
 
 ## ⚡ Quick Start
