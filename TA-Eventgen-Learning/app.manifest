@@ -5,7 +5,7 @@
     "id": {
       "group": null,
       "name": "TA-Eventgen-Learning",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
     "author": [
       {
@@ -38,7 +38,11 @@
       "uri": null
     }
   },
-  "dependencies": null,
+  "dependencies":  {
+    "SA-Eventgen": {
+        "version": "~7.2.1"
+    }
+  },
   "tasks": null,
   "inputGroups": null,
   "incompatibleApps": null,

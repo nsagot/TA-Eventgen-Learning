@@ -26,7 +26,7 @@ jobs:
         run: jq . appinspect_result_raw.json > appinspect_result.json
 
       - name: Upload AppInspect Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: appinspect
           path: appinspect_result.json

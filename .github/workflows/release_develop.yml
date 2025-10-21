@@ -1,10 +1,9 @@
 on:
   push:
     # Sequence of patterns matched against refs/tags
-    tags:
-    - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+    branches: ['develop']
 
-name: Upload Release Asset
+name: Upload Release Asset (Develop)
 
 jobs:
 
@@ -38,3 +37,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: ${{ steps.vars.outputs.file }}
+          draft: true
+          name: Latest develop
